@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+       h1 {
+            color: #000000;
+            font-size: 46px;
+            font-weight: 500;
+            line-height: 55.67px;
+            text-align: center;
+        }
+
+        .reg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        
+
+        .reg input {
+            width: 300px;
+            height: 80px;
+            font-size: 20px;
+        }
+
+        
+
+        button {
+            width: 275px;
+            height: 60px;
+            margin-top: 27px;
+            font-size: 12px;
+            background-color: #4200FF;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        .yes {
+            border: 2px solid blue;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>Example form</h1>
+        <form name="register" class="reg">
+            <input class="yes" type="text" name="Name" placeholder="Name">
+            <input class="now" type="text" name="Surname" placeholder="Surname">
+            <input class="yes" type="text" name="Email" placeholder="Email adress">
+            <input class="now" type="number" name="phone" placeholder="Phone number">
+            <input class="now" type="text" name="Name" placeholder="Your Mom’s name">
+            <input class="now" type="text" name="Name" placeholder="Your Pap’s name">
+            <input class="yes" type="number" name="age" placeholder="Age">
+            <input class="yes" type="text" name="Name" placeholder="About you">
+            <input class="yes" type="text" name="Name" placeholder="What is JavaScript?">
+            <input class="yes" type="text" name="Name" placeholder="What is HTML?">
+            <input class="yes" type="text" name="Name" placeholder="What is CSS?">
+            <input class="now" type="text" name="Name" placeholder="Your favourite car">
+            <button>Save changes</button>
+        </form>
+    </center>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
